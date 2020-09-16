@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
-    <div>
-        <button id="btn-start">Start</button>
-        <button id="btn-stop">Stop</button>
-        <button id="btn-reset">Reset</button>
+    <div id="button-div">
+        <button id="btn-start"><i class="fas fa-play fa-3x"></i></button>
+        <button id="btn-stop"><i class="fas fa-stop fa-3x"></i></button>
+        <button id="btn-reset"><i class="fas fa-undo fa-3x"></i></button>
+        <button id="btn-lap"><i class="fas fa-stopwatch fa-3x"></i></button>
     </div>
-    <div>
-        <span id="h"></span>:<span id="m"></span>:<span id="s"></span>
+    
+    <div id="timer">
+        <span id="h"></span>
+        <span>:</span>
+        <span id="m"></span>
+        <span>:</span>
+        <span id="s"></span>
+        <span>.</span>
+        <span id="ms"></span>
     </div>
+
+    <ol id="laps">
+
+    </ol>
+
     <script src="script.js"></script>
 </body>
 </html>
