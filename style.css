@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+}
+
+#button-div {
+    margin-top: 15vh;
+}
+
+#button-div > button {
+    height: 12vh;
+    width: 15vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: cyan;
+    border-radius: 10px;
+    box-shadow: 1px 1px yellow;
+    outline: none;
+}
+button[disabled=disabled] {
+    background-color: darkgray;
+}
+
+#timer {
+    height: 12vh;
+    font-size: 48px;
+    border: 5px solid cyan;
+    border-radius: 10px;
+    margin: 1em;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    background-color: black;
+}
+
+ol {
+    color: yellow;
+    font-size: 24px;
+}
+
+li:nth-of-type(even) {
+    color: cyan;
+}
+
+i.fas {
+    color: black;
+}
