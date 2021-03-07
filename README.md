@@ -1,10 +1,10 @@
 # Stopwatch
 A stopwatch made with HTML, CSS and Javascript.
 
-# Live demo:
+## Live demo:
 https://marko-zc.github.io/Stopwatch/
 
-#Made with:
+## Made with:
 - HTML
 - CSS
 - Javascript
